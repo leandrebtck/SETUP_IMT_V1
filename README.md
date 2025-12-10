@@ -22,4 +22,5 @@ L’utilisateur peut lancer le simulateur + le ROS bridge en quelques commandes 
 Depuis un terminal, lancez :  
 
 ```bash
+sudo apt update && sudo apt install -y curl
 bash <(curl -s https://raw.githubusercontent.com/leandrebtck/SETUP_IMT_V1/main/SETUP_IMT_V1.sh)
