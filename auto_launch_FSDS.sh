@@ -39,7 +39,7 @@ for i in {1..40}; do
         break
     fi
     echo "   Tentative $i/40..."
-    sleep 1
+    sleep 4
 done
 
 if [ -z "$WIN_ID" ]; then
