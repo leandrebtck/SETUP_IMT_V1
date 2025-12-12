@@ -24,3 +24,20 @@ Depuis un terminal, lancez :
 ```bash
 sudo apt update && sudo apt install -y curl
 bash <(curl -s https://raw.githubusercontent.com/leandrebtck/SETUP_IMT_V1/main/SETUP_IMT_V1.sh)
+```
+### Lancement automatique : auto_launch_FSDS.sh
+
+Ce dépôt inclut un exécutable permettant de tout lancer automatiquement :
+
+- Lancer FSDS en 1280×720
+- Attendre son ouverture
+- Cliquer sur Run Simulation
+- Lancer le ROS2 bridge
+- Lancer un terminal ROS2 prêt à l’emploi et lister les topics disponibles
+
+## Lancer automatiquement FSDS + ROS2 (en 1 seule commande)
+
+Sans télécharger manuellement le script, lancez :
+```bash
+bash <(curl -s https://raw.githubusercontent.com/leandrebtck/SETUP_IMT_V1/main/auto_launch_FSDS.sh)
+```
